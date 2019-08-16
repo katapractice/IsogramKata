@@ -12,4 +12,4 @@ def is_isogram(string):
 	return True
 
 
-print(is_isogram("abc"))
+print(is_isogram("moose"))
