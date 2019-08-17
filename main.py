@@ -12,4 +12,7 @@ def is_isogram(string):
 	return True
 
 
+def clever_solution(string):
+	return len(string) == len(set(string.lower()))
+
 print(is_isogram("moose"))
